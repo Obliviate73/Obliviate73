@@ -1,18 +1,20 @@
 ### 1.Create Environment
-1）打开Anaconda Promt 
+1）打开Anaconda Promt; 
 
-2）在anaconda内安装搭配了python3.9的新环境，命名为tensorflow  
+2）在anaconda内安装搭配了python3.7的新环境，命名为pytorch2; 
 
-`conda create -n tensorflow python==3.9`
+`conda create -n pytorch2 python==3.7`
 
-### 2.Install Tensorflow
+### 2.Installation
 1）打开Anaconda Promt  
 
-2）进入新安装的环境tensorflow
+2）进入新安装的环境pytorch2
 
 `activate tensorflow`  
 
-3）安装tensorflow  
+3）安装 
 
-`pip install tensorflow`  
+根据   安装对应的环境
+
+`pip install -r requirements.txt -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com`  
 
